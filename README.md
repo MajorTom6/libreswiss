@@ -1,0 +1,2 @@
+# libreswiss
+Python Tournament Generator
