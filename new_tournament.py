@@ -1,6 +1,6 @@
 from tkinter import Toplevel, IntVar, Label, Radiobutton, Button, messagebox
-from window_functions import *
-from new_random_swiss import *
+from window_functions import center_size, destroy_all
+from new_random_swiss import new_random_swiss
 
 def chosen(v,main):
     v=v.get()
@@ -16,7 +16,7 @@ def new_tournament(main):
     top.title("New Tournament")
     center_size(top,320,150)
     v = IntVar()
-    Label(top, text='Select type:').grid(row=0,column=1) 
+    Label(top, text='Select type:').grid(row=0,column=1)
     Radiobutton(top, text='Random Single Swiss',    variable=v, value=1).grid(row=1,column=1)
     Radiobutton(top, text='!Rated Single Swiss!',   variable=v, value=2).grid(row=2,column=1)
     Radiobutton(top, text='!Random Double Swiss!',  variable=v, value=3).grid(row=3,column=1)

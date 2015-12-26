@@ -1,7 +1,6 @@
 from tkinter import Tk, Menu
-from new_tournament import *
-from new_random_swiss import *
-from create_single_swiss import *
+from new_tournament import new_tournament
+from window_functions import center_size
 
 main = Tk()
 
