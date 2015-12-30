@@ -1,6 +1,6 @@
 from tkinter import Toplevel, Label, Entry, Button, Scrollbar, Listbox, EXTENDED, END
 from window_functions import center_size
-from create_single_swiss import create_single swiss
+from create_single_swiss import create_single_swiss
 
 def new_random_swiss(main):
     players = []
